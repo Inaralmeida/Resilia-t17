@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: 900;
+  border: 1px solid rgb(33, 50, 51);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #ffb30054;
+  color: black;
+  width: 115px;
+}
+button:active {
+  background-color: red;
+}
+a {
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  color: brown;
+  font-size: 20px;
+}
+
+a:visited {
+  color: aqua;
+}
+
+ul {
+  width: 100%;
+}
+
+li {
+  margin: 2px;
+  padding: 8px 16px;
+  list-style-type: none;
+  background-color: rgb(240, 240, 250);
+}
+
+/* PEGA ELEMENTOS PARES */
+/* li:nth-child(even) {
+  background-color: tomato;
+} */
+/* PEGA ELEMENTOS IMPARES */
+li:nth-child(odd):hover {
+  background-color: brown;
+}
+/* PEGA UM ELEMENTO ESPECIFICO */
+/* li:nth-child(7) {
+  background-color: #ffb200;
+} */
+
+/* li:nth-child(5n + 3) {
+  background-color: #ffb200;
+} */
+
+.primeira-letra {
+  font-size: 30px;
+}
+.primeira-letra::first-letter {
+  font-size: 50px;
+  color: white;
+  background-color: blue;
+}
+.primeira-letra:hover::first-letter {
+  font-size: 70px;
+  background-color: chartreuse;
+}
+
+.antes::before {
+  content: "✪";
+  color: brown;
+  font-size: 50px;
+}
+
+.depois::after {
+  content: "✦";
+  color: #ffb200;
+  font-size: 50px;
+}
+
+.selecionado::selection {
+  background-color: black;
+  color: #ffb200;
+}

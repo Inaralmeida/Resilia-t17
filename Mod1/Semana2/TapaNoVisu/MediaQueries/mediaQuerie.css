@@ -1,0 +1,22 @@
+/* TABLET */
+@media (max-width: 768px) {
+  header {
+    background-color: rebeccapurple;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+}
+/* MOBILE */
+@media (max-width: 425px) {
+  header {
+    font-size: 15px;
+  }
+  h1 {
+    display: none;
+  }
+}

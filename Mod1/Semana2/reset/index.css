@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header > h1 {
+  color: tomato;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+nav > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  width: 100%;
+  height: 88vh;
+
+  background-color: #ededed;
+}
+
+section {
+  width: 50%;
+  background-color: #bbb;
+  height: 150px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+}

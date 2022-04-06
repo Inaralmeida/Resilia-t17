@@ -1,0 +1,20 @@
+.pai {
+  display: block;
+}
+.div-colorida {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.filho1 {
+  background-color: red;
+}
+.filho2 {
+  background-color: yellow;
+}
+.filho3 {
+  background-color: green;
+}
+.filho4 {
+  background-color: cyan;
+}
