@@ -56,21 +56,21 @@ li {
 }
 
 /* PEGA ELEMENTOS PARES */
-/* li:nth-child(even) {
+li:nth-child(even) {
   background-color: tomato;
-} */
+}
 /* PEGA ELEMENTOS IMPARES */
 li:nth-child(odd):hover {
   background-color: brown;
 }
 /* PEGA UM ELEMENTO ESPECIFICO */
-/* li:nth-child(7) {
+li:nth-child(7) {
   background-color: #ffb200;
-} */
+}
 
-/* li:nth-child(5n + 3) {
+li:nth-child(5n + 3) {
   background-color: #ffb200;
-} */
+}
 
 .primeira-letra {
   font-size: 30px;
