@@ -1,0 +1,25 @@
+/*
+  dar garfada na comida
+  colocar a comida na boca
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  martigar
+  Engolir a comida
+*/
