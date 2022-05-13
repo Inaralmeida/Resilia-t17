@@ -20,7 +20,3 @@ class Pilha {
     console.log(this.pilha);
   }
 }
-
-const pilha1 = new Pilha();
-
-pilha1.empilhar("café");
