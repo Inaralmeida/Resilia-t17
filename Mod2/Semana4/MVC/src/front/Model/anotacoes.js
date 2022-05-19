@@ -15,8 +15,8 @@ class Anotacoes {
       console.error(e);
     }
   }
+
+  verificaNota(titulo, nota) {
+    console.log(titulo, notas);
+  }
 }
-
-const anotacoes = new Anotacoes(1, "1235");
-
-console.log(anotacoes);
