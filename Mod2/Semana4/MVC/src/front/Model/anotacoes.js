@@ -15,8 +15,4 @@ class Anotacoes {
       console.error(e);
     }
   }
-
-  verificaNota(titulo, nota) {
-    console.log(titulo, notas);
-  }
 }
